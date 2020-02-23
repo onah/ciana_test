@@ -1,7 +1,7 @@
 #include "sum.h"
 
-int my_sum(int a, int b) {
-  int result = a + b;
-  return result;
+int mySum(int A, int B) {
+  int Result = A + B;
+  return Result;
 }
 

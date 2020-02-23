@@ -3,16 +3,16 @@
 #include "sum.h"
 #include "multi.h"
 
-extern int global_value;
+extern int GlobalValue;
 
 int main() {
-  int right_value = 10;
-  int left_value = 15;
+  int RightValue = 10;
+  int LeftValue = 15;
 
-  int result = my_multi(right_value, left_value);
-  global_value = result;
+  int Result = myMulti(RightValue, LeftValue);
+  GlobalValue = Result;
 
-  printf("%d\n", result);
+  printf("%d\n", Result);
   return 0;
 }
 
